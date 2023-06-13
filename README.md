@@ -29,6 +29,9 @@ We currently have no plans to further develop the program.
 ### Choregraphe screenshot:
 
 ![Whats![WhatsApp Image 2023-06-13 at 09 48 25 (1)](https://github.com/Humanoid-Robots-as-Edu-Assistants/yoga-with-nao/assets/68842909/7bed4618-5fe0-40c4-be29-ec19034a1917 =250x)
+
+
+
 ![WhatsApp Image 2023-06-13 at 09 48 25 (1)](https://github.com/Humanoid-Robots-as-Edu-Assistants/yoga-with-nao/assets/68842909/8c4bbf7d-08f4-4a88-a93e-327c4ca003b2)
 
 
