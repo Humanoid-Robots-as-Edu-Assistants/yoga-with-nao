@@ -27,9 +27,10 @@ You will need NAO robot and it could be useful to have additional pictures of th
 We currently have no plans to further develop the program.
 
 ### Choregraphe screenshot:
-![evolution_game_logic](https://user-images.githubusercontent.com/68842909/223420713-a3903347-ed9e-489d-8cf7-23e6fdb67b7b.PNG)
-![Whats![WhatsApp Image 2023-06-13 at 09 48 25 (1)](https://github.com/Humanoid-Robots-as-Edu-Assistants/yoga-with-nao/assets/68842909/7bed4618-5fe0-40c4-be29-ec19034a1917)
-App Image 2023-06-13 at 09 48 25](https://github.com/Humanoid-Robots-as-Edu-Assistants/yoga-with-nao/assets/68842909/198e5be0-6f74-4af3-bdb1-c93da1d7b0a4)
+
+![Whats![WhatsApp Image 2023-06-13 at 09 48 25 (1)](https://github.com/Humanoid-Robots-as-Edu-Assistants/yoga-with-nao/assets/68842909/7bed4618-5fe0-40c4-be29-ec19034a1917 =250x)
+![WhatsApp Image 2023-06-13 at 09 48 25 (1)](https://github.com/Humanoid-Robots-as-Edu-Assistants/yoga-with-nao/assets/68842909/8c4bbf7d-08f4-4a88-a93e-327c4ca003b2)
+
 
 ---
 
