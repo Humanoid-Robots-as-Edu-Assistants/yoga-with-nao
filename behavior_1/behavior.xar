@@ -15,7 +15,7 @@
       <BehaviorLayer name="behavior_layer1">
         <BehaviorKeyframe name="keyframe1" index="1">
           <Diagram scale="100">
-            <Box name="Warrior I Links" id="1" localization="8" tooltip="Timeline for the Yoga Pose Warrior I." x="629" y="323">
+            <Box name="Warrior I Links" id="1" localization="8" tooltip="Timeline for the Yoga Pose Warrior I." x="686" y="24">
               <bitmap>media/images/box/movement/move.png</bitmap>
               <script language="4">
                 <content>
@@ -512,7 +512,7 @@ fünf]]>
                 </ActuatorList>
               </Timeline>
             </Box>
-            <Box name="Warrior II Re" id="2" localization="8" tooltip="Timeline for the Yoga Pose Warrior II." x="795" y="133">
+            <Box name="Warrior II Re" id="2" localization="8" tooltip="Timeline for the Yoga Pose Warrior II." x="435" y="21">
               <bitmap>media/images/box/movement/move.png</bitmap>
               <script language="4">
                 <content>
@@ -986,7 +986,7 @@ Ich zähle für dich.]]>
                 </ActuatorList>
               </Timeline>
             </Box>
-            <Box name="Intro" id="16" localization="8" tooltip="Enter description here" x="191" y="83">
+            <Box name="Intro" id="16" localization="8" tooltip="Enter description here" x="59" y="19">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -1000,7 +1000,7 @@ Ich zähle für dich.]]>
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
                     <Diagram>
-                      <Box name="Go to position Stand" id="15" localization="8" tooltip="Robot will go to the position Stand&lt;br/&gt;Position description : Standing position with low power consumption. " x="814" y="332">
+                      <Box name="Go to position Stand" id="15" localization="8" tooltip="Robot will go to the position Stand&lt;br/&gt;Position description : Standing position with low power consumption. " x="1236" y="23">
                         <bitmap>media/images/positions/Stand.png</bitmap>
                         <script language="4">
                           <content>
@@ -1047,7 +1047,7 @@ class MyClass(GeneratedClass):
                         <Resource name="All motors" type="Lock" timeout="0" />
                         <Resource name="Stiffness" type="Lock" timeout="0" />
                       </Box>
-                      <Box name="Go to position Stand" id="3" localization="8" tooltip="Robot will go to the position Stand&lt;br/&gt;Position description : Standing position with low power consumption. " x="85" y="101">
+                      <Box name="Go to position Stand" id="3" localization="8" tooltip="Robot will go to the position Stand&lt;br/&gt;Position description : Standing position with low power consumption. " x="65" y="17">
                         <bitmap>media/images/positions/Stand.png</bitmap>
                         <script language="4">
                           <content>
@@ -1094,7 +1094,7 @@ class MyClass(GeneratedClass):
                         <Resource name="All motors" type="Lock" timeout="0" />
                         <Resource name="Stiffness" type="Lock" timeout="0" />
                       </Box>
-                      <Box name="Animated Say Text" id="5" localization="8" tooltip="Say the text received on its input and move during its speech.&#x0A;" x="688" y="310">
+                      <Box name="Animated Say Text" id="5" localization="8" tooltip="Say the text received on its input and move during its speech.&#x0A;" x="1102" y="21">
                         <bitmap>media/images/box/interaction/say.png</bitmap>
                         <script language="4">
                           <content>
@@ -1148,7 +1148,7 @@ class MyClass(GeneratedClass):
                         <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
                         <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
                         <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
-                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="85" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="90" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
                         <Parameter name="Speaking movement mode" inherits_from_parent="0" content_type="3" value="contextual" default_value="contextual" custom_choice="0" tooltip="Change the body language mode during the speech.&#x0A;disabled: The robot will only play the animations given by the user through the animation parameter.&#x0A;random: During time the robot has no animation to play, he will launch random neutral animations.&#x0A;contextual: During time the robot has no animation to play, he will try to launch a new one accordingly to the saying text. Every time the robot can&apos;t find a contextual animation he will launch a random neutral animation." id="7">
                           <Choice value="disabled" />
                           <Choice value="random" />
@@ -1156,7 +1156,7 @@ class MyClass(GeneratedClass):
                         </Parameter>
                         <Resource name="Speech" type="Lock" timeout="0" />
                       </Box>
-                      <Box name="Text Edit" id="6" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="280" y="91">
+                      <Box name="Text Edit" id="6" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="458" y="14">
                         <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
                         <script language="4">
                           <content>
@@ -1178,7 +1178,7 @@ class MyClass(GeneratedClass):
                         <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
                         <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
                       </Box>
-                      <Box name="Set Language" id="7" localization="8" tooltip="Set the language of your robot for the current application. Your robot will speak and understand the selected language as long as your application has focus. Any following call to ALSpeechRecognition (Speech Reco. box for instance), ALTextToSpeech (Say box for instance) or ALDialog will use this language.&#x0A;" plugin="setlanguage_plugin" x="53" y="243">
+                      <Box name="Set Language" id="7" localization="8" tooltip="Set the language of your robot for the current application. Your robot will speak and understand the selected language as long as your application has focus. Any following call to ALSpeechRecognition (Speech Reco. box for instance), ALTextToSpeech (Say box for instance) or ALDialog will use this language.&#x0A;" plugin="setlanguage_plugin" x="187" y="17">
                         <bitmap>media/images/box/interaction/say.png</bitmap>
                         <script language="4">
                           <content>
@@ -1243,7 +1243,7 @@ class MyClass(GeneratedClass):
                         <Output name="onError" type="3" type_size="1" nature="2" inner="0" tooltip="Error output:&#x0A;- triggered if the language asked cannot be set" id="4" />
                         <Resource name="Speech" type="Lock" timeout="0" />
                       </Box>
-                      <Box name="Say Text" id="13" localization="8" tooltip="Say the text received on its input." x="572" y="98">
+                      <Box name="Say Text" id="13" localization="8" tooltip="Say the text received on its input." x="712" y="16">
                         <bitmap>media/images/box/interaction/say.png</bitmap>
                         <script language="4">
                           <content>
@@ -1296,10 +1296,10 @@ class MyClass(GeneratedClass):
                         <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
                         <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
                         <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
-                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="85" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="90" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
                         <Resource name="Speech" type="Lock" timeout="0" />
                       </Box>
-                      <Box name="Text Edit (1)" id="14" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="439" y="413">
+                      <Box name="Text Edit (1)" id="14" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="845" y="19">
                         <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
                         <script language="4">
                           <content>
@@ -1331,7 +1331,7 @@ Jetzt, wo ihr eure Atmung unter Kontrolle habt, gehen wir zu den Yoga-Übungen �
                         <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
                         <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
                       </Box>
-                      <Box name="wave" id="1" localization="8" tooltip="nao waves" x="281" y="475">
+                      <Box name="wave" id="1" localization="8" tooltip="nao waves" x="470" y="148">
                         <bitmap>media/images/box/movement/move.png</bitmap>
                         <script language="4">
                           <content>
@@ -1620,6 +1620,62 @@ Jetzt, wo ihr eure Atmung unter Kontrolle habt, gehen wir zu den Yoga-Übungen �
                           </ActuatorList>
                         </Timeline>
                       </Box>
+                      <Box name="onError" id="2" localization="8" tooltip="Say the text received on its input." x="206" y="162">
+                        <bitmap>media/images/box/interaction/say.png</bitmap>
+                        <script language="4">
+                          <content>
+                            <![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.tts = self.session().service('ALTextToSpeech')
+        self.ttsStop = self.session().service('ALTextToSpeech') #Create another service as wait is blocking if audioout is remote
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.pCall("say",str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]>
+                          </content>
+                        </script>
+                        <Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" />
+                        <Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" />
+                        <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
+                        <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
+                        <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
+                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                        <Resource name="Speech" type="Lock" timeout="0" />
+                      </Box>
                       <Link inputowner="15" indexofinput="2" outputowner="5" indexofoutput="4" />
                       <Link inputowner="7" indexofinput="2" outputowner="3" indexofoutput="4" />
                       <Link inputowner="13" indexofinput="2" outputowner="6" indexofoutput="3" />
@@ -1629,12 +1685,13 @@ Jetzt, wo ihr eure Atmung unter Kontrolle habt, gehen wir zu den Yoga-Übungen �
                       <Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="2" />
                       <Link inputowner="0" indexofinput="3" outputowner="15" indexofoutput="4" />
                       <Link inputowner="1" indexofinput="2" outputowner="7" indexofoutput="3" />
+                      <Link inputowner="2" indexofinput="2" outputowner="7" indexofoutput="4" />
                     </Diagram>
                   </BehaviorKeyframe>
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="Tadasana" id="3" localization="8" tooltip="Enter description here" x="374" y="110">
+            <Box name="Tadasana" id="3" localization="8" tooltip="Enter description here" x="193" y="20">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -1648,7 +1705,7 @@ Jetzt, wo ihr eure Atmung unter Kontrolle habt, gehen wir zu den Yoga-Übungen �
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
                     <Diagram>
-                      <Box name="Tadasana (1)" id="8" localization="8" tooltip="NAO stands in Tadasana position (mountain stand).&#x0A;Straight back and legs, arms stretched out and palms facing forward." x="298" y="205">
+                      <Box name="Tadasana (1)" id="8" localization="8" tooltip="NAO stands in Tadasana position (mountain stand).&#x0A;Straight back and legs, arms stretched out and palms facing forward." x="74" y="22">
                         <bitmap>media/images/box/movement/move.png</bitmap>
                         <script language="4">
                           <content>
@@ -1716,7 +1773,7 @@ class MyClass(GeneratedClass):
                                   <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
                                   <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
                                   <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
-                                  <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="85" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                                  <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="90" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
                                   <Resource name="Speech" type="Lock" timeout="0" />
                                 </Box>
                                 <Box name="Text Edit" id="2" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="146" y="189">
@@ -1801,7 +1858,7 @@ class MyClass(GeneratedClass):
                                   <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
                                   <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
                                   <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
-                                  <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="75" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                                  <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="76" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
                                   <Resource name="Speech" type="Lock" timeout="0" />
                                 </Box>
                                 <Box name="Text Edit (1)" id="4" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="531" y="195">
@@ -2072,7 +2129,7 @@ fünf]]>
                           </ActuatorList>
                         </Timeline>
                       </Box>
-                      <Box name="Say" id="9" localization="8" tooltip="Say some text. The text can be localized." x="659" y="184">
+                      <Box name="Say" id="9" localization="8" tooltip="Say some text. The text can be localized." x="201" y="23">
                         <bitmap>media/images/box/interaction/say.png</bitmap>
                         <script language="4">
                           <content>
@@ -2125,7 +2182,7 @@ class MyClass(GeneratedClass):
                         <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
                         <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
                         <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
-                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="85" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="90" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
                         <Parameter name="Text" inherits_from_parent="0" content_type="5" value="Gut gemacht! Tadasana ist eine wirksame Übung, um eure Körperhaltung und Entspannung zu verbessern. Wir machen weiter mit Virabhadrasana eins, bekannt als Krieger eins." default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" />
                         <Resource name="Speech" type="Lock" timeout="0" />
                       </Box>
@@ -2137,7 +2194,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="Krieger I Re" id="5" localization="8" tooltip="Enter description here" x="600" y="120">
+            <Box name="Krieger I Re" id="5" localization="8" tooltip="Enter description here" x="314" y="19">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -2151,7 +2208,7 @@ class MyClass(GeneratedClass):
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
                     <Diagram>
-                      <Box name="Warrior I Rechts" id="4" localization="8" tooltip="Timeline for the Yoga Pose Warrior I." x="530" y="134">
+                      <Box name="Warrior I Rechts" id="4" localization="8" tooltip="Timeline for the Yoga Pose Warrior I." x="71" y="17">
                         <bitmap>media/images/box/movement/move.png</bitmap>
                         <script language="4">
                           <content>
@@ -2759,7 +2816,7 @@ fünf]]>
                           </ActuatorList>
                         </Timeline>
                       </Box>
-                      <Box name="Say (2)" id="12" localization="8" tooltip="Say some text. The text can be localized." x="820" y="205">
+                      <Box name="Say (2)" id="12" localization="8" tooltip="Say some text. The text can be localized." x="195" y="20">
                         <bitmap>media/images/box/interaction/say.png</bitmap>
                         <script language="4">
                           <content>
@@ -2812,7 +2869,7 @@ class MyClass(GeneratedClass):
                         <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
                         <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
                         <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
-                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="85" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="90" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
                         <Parameter name="Text" inherits_from_parent="0" content_type="5" value="Gut gemacht! Virabhadrasana eins ist eine gute Übung, um die Beine, Arme und Schultern zu stärken und die Körperhaltung zu verbessern. Wir machen weiter mit Virabhadrasana zwei, bekannt als Krieger zwei." default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" />
                         <Resource name="Speech" type="Lock" timeout="0" />
                       </Box>
@@ -2824,7 +2881,7 @@ class MyClass(GeneratedClass):
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="Tadasana" id="4" localization="8" tooltip="Enter description here" x="397" y="334">
+            <Box name="Tadasana" id="4" localization="8" tooltip="Enter description here" x="564" y="21">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -2838,7 +2895,7 @@ class MyClass(GeneratedClass):
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
                     <Diagram>
-                      <Box name="Say" id="10" localization="8" tooltip="Say some text. The text can be localized." x="259" y="115">
+                      <Box name="Say" id="10" localization="8" tooltip="Say some text. The text can be localized." x="89" y="21">
                         <bitmap>media/images/box/interaction/say.png</bitmap>
                         <script language="4">
                           <content>
@@ -2891,11 +2948,11 @@ class MyClass(GeneratedClass):
                         <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
                         <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
                         <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
-                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="85" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="90" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
                         <Parameter name="Text" inherits_from_parent="0" content_type="5" value="Jetzt kommen wir zurück zur Bergposition und dann wechseln wir die Seiten." default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" />
                         <Resource name="Speech" type="Lock" timeout="0" />
                       </Box>
-                      <Box name="Tadasana (1)" id="11" localization="8" tooltip="NAO stands in Tadasana position (mountain stand).&#x0A;Straight back and legs, arms stretched out and palms facing forward." x="572" y="130">
+                      <Box name="Tadasana (1)" id="11" localization="8" tooltip="NAO stands in Tadasana position (mountain stand).&#x0A;Straight back and legs, arms stretched out and palms facing forward." x="229" y="25">
                         <bitmap>media/images/box/movement/move.png</bitmap>
                         <script language="4">
                           <content>
@@ -3295,7 +3352,7 @@ fünf]]>
                 </BehaviorLayer>
               </Timeline>
             </Box>
-            <Box name="Warrior II Links" id="7" localization="8" tooltip="This box is empty (contains a single motion layer with no motor position&#x0A;defined in it) and should be used to create any animation you would like." x="824" y="315">
+            <Box name="Warrior II Links" id="7" localization="8" tooltip="This box is empty (contains a single motion layer with no motor position&#x0A;defined in it) and should be used to create any animation you would like." x="812" y="24">
               <bitmap>media/images/box/movement/move.png</bitmap>
               <script language="4">
                 <content>
@@ -3660,7 +3717,7 @@ fünf]]>
                 </ActuatorList>
               </Timeline>
             </Box>
-            <Box name="Outro" id="9" localization="8" tooltip="Enter description here" x="1079" y="320">
+            <Box name="Outro" id="9" localization="8" tooltip="Enter description here" x="942" y="28">
               <bitmap>media/images/box/box-diagram.png</bitmap>
               <script language="4">
                 <content>
@@ -3674,7 +3731,7 @@ fünf]]>
                 <BehaviorLayer name="behavior_layer1">
                   <BehaviorKeyframe name="keyframe1" index="1">
                     <Diagram>
-                      <Box name="Say Text" id="6" localization="8" tooltip="Say the text received on its input." x="582" y="167">
+                      <Box name="Say Text" id="6" localization="8" tooltip="Say the text received on its input." x="309" y="28">
                         <bitmap>media/images/box/interaction/say.png</bitmap>
                         <script language="4">
                           <content>
@@ -3727,10 +3784,10 @@ class MyClass(GeneratedClass):
                         <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
                         <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
                         <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
-                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="90" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
                         <Resource name="Speech" type="Lock" timeout="0" />
                       </Box>
-                      <Box name="Text Edit" id="8" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="253" y="93">
+                      <Box name="Text Edit" id="8" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="52" y="25">
                         <bitmap>media/images/box/interaction/vocabulary.png</bitmap>
                         <script language="4">
                           <content>
@@ -3754,7 +3811,7 @@ Vergesst nicht, regelmäßig zu üben, um die besten Ergebnisse zu erzielen.]]>
                         <Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" />
                         <Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" />
                       </Box>
-                      <Box name="wave" id="7" localization="8" tooltip="nao waves" x="721" y="541">
+                      <Box name="wave" id="7" localization="8" tooltip="nao waves" x="556" y="158">
                         <bitmap>media/images/box/movement/move.png</bitmap>
                         <script language="4">
                           <content>
@@ -4043,7 +4100,7 @@ Vergesst nicht, regelmäßig zu üben, um die besten Ergebnisse zu erzielen.]]>
                           </ActuatorList>
                         </Timeline>
                       </Box>
-                      <Box name="Say" id="2" localization="8" tooltip="Say some text. The text can be localized." x="814" y="287">
+                      <Box name="Say" id="2" localization="8" tooltip="Say some text. The text can be localized." x="550" y="37">
                         <bitmap>media/images/box/interaction/say.png</bitmap>
                         <script language="4">
                           <content>
@@ -4096,7 +4153,7 @@ class MyClass(GeneratedClass):
                         <Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" />
                         <Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" />
                         <Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" />
-                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="85" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
+                        <Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="90" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" />
                         <Parameter name="Text" inherits_from_parent="0" content_type="5" value="Bis zum nächsten Mal!" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" />
                         <Resource name="Speech" type="Lock" timeout="0" />
                       </Box>

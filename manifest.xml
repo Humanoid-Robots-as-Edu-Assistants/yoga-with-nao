@@ -1,13 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="yoga-23d05d" installOnlyAtStartup="false" version="0.0.0">
+<package installOnlyAtStartup="false" uuid="yoga-23d05d" version="1.0.0">
  <names>
+  <name lang="de_DE">yoga mit NAO</name>
   <name lang="en_US">Untitled</name>
  </names>
+ <descriptions>
+  <description lang="de_DE">Nao führt die TeilnehmerInnen durch drei Yoga Positionen.</description>
+ </descriptions>
  <supportedLanguages>
-  <language>en_US</language>
+  <language>de_DE</language>
  </supportedLanguages>
  <descriptionLanguages>
-  <language>en_US</language>
+  <language>de_DE</language>
  </descriptionLanguages>
  <contents>
   <behaviorContent path="behavior_1">
@@ -16,4 +20,8 @@
    <permissions/>
   </behaviorContent>
  </contents>
+ <requirements>
+  <naoqiRequirement maxVersion="2.8" minVersion="2.8"/>
+  <robotRequirement minBodyVersion="5.0" minHeadVersion="5.0" model="NAO"/>
+ </requirements>
 </package>
